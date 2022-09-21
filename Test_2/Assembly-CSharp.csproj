@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{ac959a06-d71b-dd65-1ab3-b52237bd0b6c}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
+    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_URP.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Triplanar Sampling.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Dissolve.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS Outline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Behind_SM2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_VertexDisplacement.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Outline.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Hybrid 2\TCP2 Hybrid 2 Include.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Stylized Water.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Terrain.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Detail Texture Simple.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_PBS_Main.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_DepthTexture.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Vertex Color Albedo.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_MatCap.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\HSV.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Old School.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Dissolve.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS Outline Blended (Specular).shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Animated Dissolve.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS Outline (Specular).shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Sketch.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Texture Blending.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_ShadowHSV.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Water.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\SG2_Template_Default.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Snow Accumulation.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\TCP2_OutlineOnly Blended.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_NdotL Stylization.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Water.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Comic Book.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_CurvedWorld.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_PBS_Core.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Wind.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_SurfacePBS.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\!ToonyColorsPro Readme.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Dithering.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\TCP2_OutlineOnly SM2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Ramp Shading LWRP.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Hologram.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\TCP2_OutlineOnly Blended SM2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Realistic.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Include.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_AlbedoHSV.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Behind.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Normal Mapping.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Blended Outline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_VertExmotion.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Subsurface Scattering.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Vertical Fog.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Water WindWaker2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Water_CurvedWorld.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Hand Painted.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_Stencil.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Ramp Shading.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS Outline Blended.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Sketch.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\Include\TCP2_Outline_SM2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Aura2.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Reflection.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Lava.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Screen Space UV.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Hash Functions.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Terrain.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Default_CurvedWorld.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Triplanar.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_PBS.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Default\Sketch.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_PBS_ShadowMeta.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Lava Cartoon.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\PBS\Outline Behind.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_HSV.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_Standard PBS (Specular).shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Water.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Rim Lighting.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Subsurface Scattering.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_NoTile Sampling.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Standard PBS\TCP2_PBS_BRDF.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders\Legacy\TCP2_OutlineOnly.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Water WindWaker.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_CustomAmbient.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Wind Animation.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates\TCP2_ShaderTemplate_Default.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\Water\Poison.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Specular.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders Generated\Examples\SG2\Detail Texture.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shader Templates 2\Modules\Module_Reflection.txt" />
+     <Reference Include="UnityEngine">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
